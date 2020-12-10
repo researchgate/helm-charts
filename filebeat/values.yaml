@@ -25,6 +25,9 @@ extraEnvs: []
 #  - name: MY_ENVIRONMENT_VAR
 #    value: the_value_goes_here
 
+volumes:
+  varlibdockercontainersPath: /var/lib/docker/containers
+
 extraVolumeMounts: []
   # - name: extras
   #   mountPath: /usr/share/extras
