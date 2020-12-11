@@ -77,7 +77,7 @@ spec:
           type: DirectoryOrCreate
       - name: varlibdockercontainers
         hostPath:
-          path: {{ .Values.volumes.varlibdockercontainersPath }}
+          path: {{ .Values.volumes.dockerContainersHostPath }}
       - name: varlog
         hostPath:
           path: /var/log
